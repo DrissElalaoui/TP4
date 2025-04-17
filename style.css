@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.vh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre {
+    width: 900px;
+    height: 1200px;
+    border: 1px solid black;
+    display: flex;
+    margin: 50px 0;
+}
+/* ----partie1----------- */
+.cadre .partie1 {
+    width: 30%;
+    height: 100%;
+    background-color: #fcfcfc;
+}
+.cadre .partie1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 45% 30%;
+}
+.cadre .partie1 .img {
+    background-color: yellow;
+    height: 230px;
+    width: 200px;
+    border-radius: 50%;
+}
+.cadre .partie1 .haut {
+    display: flex;
+    justify-content: center;
+    background-color: #130d8b;
+    height: 30%;
+    border-bottom-right-radius: 200px;
+    padding-top: 20Px;
+}
+.cadre .partie1 .bas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column ;
+    background: #130d8b;
+    height:70%;
+    color: #fff;
+    border-top-right-radius: 200px;
+    letter-spacing: 1px;
+}
+.cadre .partie1 .bas .contact .email {
+    margin: 10px 0;
+}
+.cadre .partie1 .bas .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffd900;
+    font-weight: 800;
+}
+.cadre .partie1 .bas .contact  p {
+    font-size: 18px;
+    
+}
+.cadre .partie1 .bas .contact i {
+    margin-right: 15px;
+    font-size: 18px;
+}
+.cadre .partie1 .bas .langage .fle {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.cadre .partie1 .bas .langage .fle .en {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cadre .partie1 .bas .langage .fle .l {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cadre .partie1 .bas .langage .fle .englich {
+    margin: 10px 0;
+}
+.cadre .partie1 .bas .langage .line {
+    width: 40px;
+    height: 6px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.cadre .partie1 .bas .langage  .ar {
+    width: 80px;
+}
+.cadre .partie1 .bas .langage  .fr {
+    width: 60px;
+}
+.cadre .partie1 .bas .langage h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffd900;
+    font-weight: 800;
+}
+.cadre .partie1 .bas .langage p {
+    font-size: 18px;
+}
+.cadre .partie1 .bas .qualites h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffd900;
+    font-weight: 800;
+}
+.cadre .partie1 .bas .qualites p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.cadre .partie1 .bas .qualites i {
+    font-size: 8px;
+    margin-right: 15px;
+}
+.partie2 {
+background-color: #fcfcfc;
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding:  20px 0 20px 30px;
+}
+.partie2 .header1 {
+    text-align: center;
+}
+.partie2 .header1 h1 {
+    font-size: 40px;
+}
+.partie2 .header1 h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.partie2 .header1 p {
+    font-size: 18px;
+}
+.partie2 h2 {
+    color: #130d8b;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.partie2 .education .bac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.partie2 .education  .b {
+    margin-top: 10px;
+} 
+.partie2 .education .bac p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.partie2 .competance {
+    line-height: 30px;
+}
+.partie2 i {
+    font-size: 10px;
+    margin-right: 10Px;
+    font-weight: 500;
+}
+.partie2 .competance .go p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.partie2 .experience {
+    /* line-height: 30px; */
+}
+.partie2 .experience p {
+    font-weight: 600;
+    margin: 10px 0 20px;
+    font-size: 18px;
+    color: #0f0f0fcc;
+}
+.partie2 .experience h3 {
+    font-size: 20px;
+    color: #0f0f0f;
+}
+.partie2 .centre {
+    line-height: 25px;
+    font-weight: 600;
+}
